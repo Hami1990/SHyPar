@@ -52,7 +52,7 @@ SHyPar uses customized versions of [KaHyPar](https://github.com/kahypar/kahypar)
 First, clone the repository:
 
 ```bash
-git clone https://github.com/Feng-Research/SHyPar.git
+git clone --recurse-submodules https://github.com/Feng-Research/SHyPar.git
 cd SHyPar
 ```
 
