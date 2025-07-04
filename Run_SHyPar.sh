@@ -13,21 +13,20 @@
 #==============================================================================
 
 # --- Configuration ---
-readonly BASE_DIR="/home/CAMPUS/hsajadin"
-readonly SHYPAR_DIR="$BASE_DIR/SHyPar"
+readonly SHYPAR_DIR="$(pwd)"
 readonly DATA_DIR="$SHYPAR_DIR/data"
 readonly HYPEREF_DIR="$SHYPAR_DIR/HyperEF"
 readonly HYPERSF_DIR="$SHYPAR_DIR/HyperSF"
 readonly KAHYPAR_DIRS=(
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_1/kahypar/build/kahypar/application"   # 1
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_2/kahypar/build/kahypar/application"   # 2
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_3/kahypar/build/kahypar/application"   # 3
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_4/kahypar/build/kahypar/application"   # 4
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_5/kahypar/build/kahypar/application"   # 5
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_6/kahypar/build/kahypar/application"   # 6
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_7/kahypar/build/kahypar/application"   # 7
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_8/kahypar/build/kahypar/application"   # 8
-    "$BASE_DIR/SHyPar/KaHyPar/KaHyPar_9/kahypar/build/kahypar/application"   # 9
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_1/kahypar/build/kahypar/application"   # 1
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_2/kahypar/build/kahypar/application"   # 2
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_3/kahypar/build/kahypar/application"   # 3
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_4/kahypar/build/kahypar/application"   # 4
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_5/kahypar/build/kahypar/application"   # 5
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_6/kahypar/build/kahypar/application"   # 6
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_7/kahypar/build/kahypar/application"   # 7
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_8/kahypar/build/kahypar/application"   # 8
+    "$SHYPAR_DIR/KaHyPar/KaHyPar_9/kahypar/build/kahypar/application"   # 9
 )
 
 # --- Input Validation ---
